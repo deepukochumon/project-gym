@@ -1,0 +1,52 @@
+body,html{
+    margin:0px;
+   
+    width:100%;
+    height:100%;
+}
+#header{
+    width:100%;
+    height:20%;
+    background:linear-gradient(to right,#9c5d5d,#d9a9a9,#383851);
+    background-size: contain;
+    opacity: 75%;
+    text-align:center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top:3%;
+    color:black;
+    font-weight:bold;
+   
+}
+#content-area{
+    width:100%;
+    height:80%;
+    overflow-y:scroll;
+    
+}
+.gig{
+    width:20%;
+    height:135px;
+    background:linear-gradient(to right,#6f5151,#674444,#4f4f5c);
+    margin-left:3%;
+    display:inline-block;
+    margin-top:3%;
+    text-align:center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:bold;
+}
+.gig img{
+    width:100%;
+    height:100%;
+}
+#footer{
+    width:100%;
+    height:30%;
+    position:relative;
+    bottom:0%;
+    background:rgb(80, 76, 76);
+
+}
+#footer p{
+    font-size:small;
+    font-weight:bolder;
+}
